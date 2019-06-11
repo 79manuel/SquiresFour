@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc426d66-d58b-469a-bade-c34766e265c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BlockOne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BlockThree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BlockTwo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Paralax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/amie-johnson-1272491-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/jonas-jacobsson-628316-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/liquor store.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/mnm-all-552510-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/nathan-dumlao-572058-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/nicolas-thomas-530191-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/BlockOne.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/BlockThree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/BlockTwo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/Home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/NavBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/Paralax.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,11 +36,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style/Paralax.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="69">
+                <caret line="3" column="21" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -137,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/components/BlockThree.js" />
         <option value="$PROJECT_DIR$/src/style/BlockThree.css" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -247,16 +237,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560194361824</updated>
-      <workItem from="1560194363966" duration="9959000" />
+      <workItem from="1560194363966" duration="10244000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit - &#10;Scaffolded app,&#10;built mobile home page,&#10;added style,&#10;added images">
+      <created>1560278136025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560278136025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9959000" />
+    <option name="totallyTimeSpent" value="10244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="992" height="956" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
@@ -280,6 +277,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit - &#10;Scaffolded app,&#10;built mobile home page,&#10;added style,&#10;added images" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit - &#10;Scaffolded app,&#10;built mobile home page,&#10;added style,&#10;added images" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/Menu.js">
@@ -439,20 +440,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/Paralax.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="276">
-            <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <first_editor relative-caret-position="69">
+            <caret line="3" column="21" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/Paralax.css">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="437">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
