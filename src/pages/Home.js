@@ -5,6 +5,7 @@ import Paralax from '../components/Paralax';
 import BlockOne from '../components/BlockOne';
 import BlockTwo from '../components/BlockTwo';
 import BlockThree from '../components/BlockThree';
+import BlockFour from '../components/BlockFour';
 import '../style/Home.css';
 
 const Home = () => {
@@ -21,9 +22,8 @@ const Home = () => {
         <BlockOne/>
         <BlockTwo/>
         <BlockThree/>
+        <BlockFour/>
       </div>
-
-
   );
 };
 
