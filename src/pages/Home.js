@@ -12,13 +12,14 @@ const Home = () => {
   return (
       <div className='home-wrapper'>
         <Paralax/>
-          <NavBar/>
-          <Link to='./Store'>
-            <button>Store</button>
-          </Link>
-          <Link to='./Menu'>
-            <button>Menu</button>
-          </Link>
+        <NavBar>
+          <ul className='dropdown'>
+            <li>Menu</li>
+            <li>Specials</li>
+            <li>Liquor Store</li>
+            <li>Contact</li>
+          </ul>
+        </NavBar>
         <BlockOne/>
         <BlockTwo/>
         <BlockThree/>
