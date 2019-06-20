@@ -1,8 +1,12 @@
 import React from 'react';
 import '../style/Paralax.css';
+import classnames from 'classnames';
 
-const Paralax = () => {
-  return <div className='paralax'></div>
-};
+class Paralax extends React.Component {
+  render() {
+    return <div className={classnames('paralax', this.props.styleName)}>
 
+    </div>;
+  };
+}
 export default Paralax;

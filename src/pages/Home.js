@@ -8,24 +8,27 @@ import BlockThree from '../components/BlockThree';
 import BlockFour from '../components/BlockFour';
 import '../style/Home.css';
 
-const Home = () => {
-  return (
-      <div className='home-wrapper'>
-        <Paralax/>
-        <NavBar>
-          <ul className='dropdown'>
-            <li>Menu</li>
-            <li>Specials</li>
-            <li>Liquor Store</li>
-            <li>Contact</li>
-          </ul>
-        </NavBar>
-        <BlockOne/>
-        <BlockTwo/>
-        <BlockThree/>
-        <BlockFour/>
-      </div>
-  );
-};
+class Home extends React.Component {
+  render() {
+    return (
+        <div className='home-wrapper'>
+          <Paralax/>
+          <NavBar>
+            <ul className='dropdown'>
+              <li><Link className='link' to='/'>Home</Link></li>
+              <li><Link className='link' to='/menu'>Menu</Link></li>
+              <li><Link className='link' to='./#'>Specials</Link></li>
+              <li><Link className='link' to='./store'>Liquor Store</Link></li>
+              <li><Link className='link' to='./#'>Contact</Link></li>
+            </ul>
+          </NavBar>
+          <BlockOne/>
+          <BlockTwo/>
+          <BlockThree/>
+          <BlockFour/>
+        </div>
+    );
+  }
+}
 
 export default Home;

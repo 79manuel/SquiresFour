@@ -1,0 +1,16 @@
+.paralax-store {
+    height: 100vh;
+    background: url("../images/liquor store.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.store-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocktwo-store {
+    background: url("../images/liquor store.jpg") center no-repeat;
+    background-size: cover;
+}

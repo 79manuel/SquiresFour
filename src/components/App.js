@@ -11,8 +11,8 @@ class App extends React.Component {
     return (
       <Router>
           <Route exact path='/' component={Home}/>
-          <Route exact path='/Menu' component={Menu}/>
-          <Route exact path='/Store' component={Store}/>
+          <Route path='/menu' component={Menu}/>
+          <Route path='/store' component={Store}/>
       </Router>
     );
 
