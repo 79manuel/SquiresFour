@@ -1,0 +1,38 @@
+.toolbar
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  padding: 0
+  border-bottom: 1px solid lightgrey
+  box-shadow: 0 0 1px 1px rgba(0,0,0, 0.5)
+  background-color: white
+  .toolbar__navigation
+    display: flex
+    height: 100%
+    align-items: center
+    padding: 0 1rem
+
+    .toolbar__navigation-items ul
+      list-style-type: none
+      margin: 0
+      padding: 0
+      display: flex
+      li
+        padding: 0 0.5rem
+      li:hover, li:active
+        color: purple
+
+    .toolbar__logo
+      padding: .8rem 0 .5rem 0
+      margin-left: .5rem
+      img
+        width: 40%
+
+    .spacer
+      flex: 1
+
+@media screen and (max-width: 768px)
+  .toolbar__navigation-items
+    display: none
+
