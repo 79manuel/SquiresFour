@@ -1,12 +1,18 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
+
+import './MenuDetails.sass';
 
 const MenuDetails = (props) => {
   if(!props.selectedMenuItem) {
-    return <h1>Select Course</h1>
+    return (
+        <div className='menu-details-container'>
+          <h1 >Select Course</h1>
+        </div>
+    );
   }
   return (
-      <div>
+      <div className='menu-details-container'>
         <h1>{props.selectedMenuItem.course}</h1>
         <ul>
           <li>{props.selectedMenuItem.items.item1}</li>

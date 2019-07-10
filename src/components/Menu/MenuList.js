@@ -1,4 +1,5 @@
 import React from 'react';
+import MenuDetails from './MenuDetails';
 import { connect } from 'react-redux';
 import { SelectMenuCourse } from '../../actions';
 import './MenuList.sass';
@@ -18,7 +19,14 @@ class MenuList extends React.Component {
     }
 
     render() {
-        return <div className='menu-list'>{this.renderList()}</div>
+        return (
+            <div className='menu-list-background'>
+              <div className='menu-list'>
+                {this.renderList()}
+              </div>
+              <MenuDetails />
+            </div>
+        );
     }
 }
 

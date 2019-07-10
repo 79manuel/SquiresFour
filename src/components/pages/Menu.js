@@ -1,6 +1,5 @@
 import React from 'react';
 import MenuList from '../Menu/MenuList';
-import MenuDetails from '../Menu/MenuDetails';
 import './Menu.sass';
 
 class Menu extends React.Component {
@@ -8,7 +7,6 @@ class Menu extends React.Component {
         return (
             <main>
                 <MenuList />
-                <MenuDetails />
             </main>
         );
     }

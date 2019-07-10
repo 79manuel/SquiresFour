@@ -8,7 +8,7 @@ const MenuListReducer = () => {
         item1: 'CUP OF SOUP WITH GARLIC TOAST . . . . . . . $6',
         item2: 'BOWL OF SOUP WITH GARLIC TOAST . . . . . $8',
         item3: 'SOUP & SANDWICH\n' +
-            'SPECIAL . . . . . . . . . . . . . . . . . . . . . cup $10 | bowl $11'
+            'SPECIAL . . . . . . . cup $10 | bowl $11'
       },
       details: {
         details1: '',
@@ -18,10 +18,10 @@ const MenuListReducer = () => {
     {
       course: 'Starters',
       items: {
-        item1: 'PITA & TZATZIKI V . . . . . . . . . . . . . . . . . . . . . . . . . . $8',
-        item2: 'DRY RIBS GF . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $12',
-        item3: 'CHICKEN FINGERS . . . . . . . . . . . . . . . . . . . . . . . . $11',
-        item4: 'WINGS GFM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $14',
+        item1: 'PITA & TZATZIKI V . . . . . . . . . . . . . . . . . . . . .  $8',
+        item2: 'DRY RIBS GF . . . . . . . . . . . . . . .  . . . . . . . . . $12',
+        item3: 'CHICKEN FINGERS . . . . . . . . . . . . . . . . . . . . . .  $11',
+        item4: 'WINGS GFM . . . . . . . . . . . . . . . . . . .  . . . . . . $14',
       },
       details: {
         details1: '',
