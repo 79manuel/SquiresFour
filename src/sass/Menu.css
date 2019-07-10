@@ -1,0 +1,13 @@
+.menu-list {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 7px 0;
+  border: 1px solid black;
+  list-style-type: none;
+  display: flex;
+}
+.menu-list li {
+  border: 1px solid red;
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=Menu.css.map */

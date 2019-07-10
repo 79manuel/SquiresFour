@@ -1,0 +1,18 @@
+.menu-details-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: 10px auto;
+  padding: 7px 0.8rem;
+}
+.menu-details-container ul {
+  padding: 0;
+  list-style: none;
+  text-align: left !important;
+}
+.menu-details-container ul li p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=MenuDetails.css.map */

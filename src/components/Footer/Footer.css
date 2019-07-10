@@ -1,0 +1,28 @@
+footer .footer__hours {
+  text-align: center;
+}
+footer .footer__hours p span {
+  font-weight: bold;
+}
+footer .footer__info {
+  background-color: black;
+  color: white;
+  font-size: 0.7rem;
+}
+footer .footer__info div {
+  display: flex;
+  padding: 0 5px;
+  justify-content: space-evenly;
+}
+footer .footer__info div p span {
+  font-weight: bold;
+}
+footer .footer__info div p a {
+  color: white;
+  text-decoration: none;
+}
+footer .footer__info .footer__copyright {
+  text-align: center;
+}
+
+/*# sourceMappingURL=Footer.css.map */

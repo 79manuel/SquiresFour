@@ -1,0 +1,15 @@
+.background-image__section-1 {
+  background: url("../../images/mnm-all-unsplash.jpg") no-repeat center scroll;
+  background-size: cover;
+}
+.background-image__section-1 .section-1__text-container {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 17px;
+  color: white;
+}
+.background-image__section-1 .section-1__text-container p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=SectionOneHome.css.map */
