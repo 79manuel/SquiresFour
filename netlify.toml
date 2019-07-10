@@ -1,4 +1,0 @@
-[build]
-base = "squiresfour/"
-publish = "squiresfour/build/"
-command = "yarn build"
