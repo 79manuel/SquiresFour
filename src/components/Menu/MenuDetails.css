@@ -5,14 +5,22 @@
   width: 90%;
   margin: 10px auto;
   padding: 7px 0.8rem;
+  font-size: 0.9rem;
 }
 .menu-details-container ul {
   padding: 0;
   list-style: none;
-  text-align: left !important;
+  text-align: center !important;
+  font-family: "Montserrat", sans-serif;
+}
+.menu-details-container ul li {
+  padding-bottom: 10px;
 }
 .menu-details-container ul li p {
   margin: 0;
+}
+.menu-details-container ul li p:nth-of-type(odd) {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=MenuDetails.css.map */
