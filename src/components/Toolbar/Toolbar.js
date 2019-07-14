@@ -9,7 +9,7 @@ const Toolbar = (props) => {
     <header className='toolbar'>
       <nav className='toolbar__navigation'>
         <div className='toolbar__logo'>
-          <img src={logo} alt='logo'/>
+          <Link to='/'><img src={logo} alt='logo'/></Link>
         </div>
         <div className='spacer'></div>
         <div>
