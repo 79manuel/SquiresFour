@@ -5,11 +5,12 @@
 }
 .menu-list-background .menu-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 96%;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  margin: 100px auto 0 auto;
+  margin: 3.8125rem auto 0 auto;
 }
 .menu-list-background .menu-list ul {
   list-style: none;

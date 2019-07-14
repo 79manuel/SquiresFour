@@ -275,7 +275,7 @@ const MenuListReducer = () => {
       }
     },
     {
-      course: 'Squires Breakfast Menu 8am - 11am',
+      course: 'Squires Breakfast Menu (8am - 11am)',
       items: {
         item1: 'SQUIRES BREAKFAST STEAL',
         item2: 'GREEK YOGURT with strawberries and granola',
@@ -309,6 +309,66 @@ const MenuListReducer = () => {
         price8: '$14'
       }
     },
+    {
+      course: 'Desserts',
+      items: {
+        item1:'',
+        item2: 'STRAWBERRY CHEESECAKE (V)',
+        item3: 'MOLTEN CHOCOLATE CAKE (V)',
+        item4: 'FEATURE DESSERT'
+      },
+      details: {
+        details1: 'A perfect way to end a wonderful experience...\n' +
+            'Try one of our decadent desserts.',
+        details2: 'Whipped cheesecake made from scratch, topped with strawberries and whipped cream',
+        details3: 'Whipped cheesecake made from scratch, topped with strawberries and whipped cream',
+        details4: 'Ask your server about today’s feature selection.'
+      },
+      prices: {
+        price1: '',
+        price2: '$7',
+        price3: '$9',
+        price4: ''
+      }
+    },
+    {
+      course: 'Specialty Coffee',
+      items: {
+        item1:'SQUIRES COFFEE',
+        item2: 'MILLIONAIRE COFFEE',
+        item3: 'IRISH COFFEE',
+        item4: 'B-52',
+        item5: 'CAFE BUENO',
+        item6: 'POLAR BEAR',
+        item7: 'MONTE CRISTO',
+        item8: 'SPANISH COFFEE',
+        item9: 'BLUEBERRY TEA'
+      },
+      details: {
+        details1: 'Amaretto & Tia Maria',
+        details2: 'Kahlúa, Baileys, Grand Marnier & Frangelico',
+        details3: 'Irish Whisky & Kahlúa',
+        details4: 'Grand Marnier, Kahlúa & Baileys',
+        details5: 'Kahlúa & Brandy',
+        details6: 'Peppermint Schnapps & Baileys\n' +
+            '(with hot chocolate)',
+        details7: 'Grand Marnier & Kahlúa',
+        details8: 'Brandy & Tia Maria',
+        details9: 'Amaretto & Grand Marnier'
+      },
+      prices: {
+        price1: '',
+        price2: '',
+        price3: '',
+        price4: '',
+        price5: '',
+        price6: '',
+        price7: '',
+        price8: '',
+        price9: ''
+      }
+    },
+
   ]
 };
 
