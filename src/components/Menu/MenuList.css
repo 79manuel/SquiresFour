@@ -10,7 +10,8 @@
   width: 96%;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  margin: 3.8125rem auto 0 auto;
+  margin: 3.7rem auto 0 auto;
+  padding: 10px 0;
 }
 .menu-list-background .menu-list ul {
   list-style: none;

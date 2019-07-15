@@ -1,12 +1,33 @@
-.contact-background {
-  background-color: black;
+main {
+  height: 100vh;
 }
-.contact-background h1 {
+main .contact-background {
+  background-color: black;
+  height: 100vh;
+}
+main .contact-background h1 {
   padding-top: 70px;
   color: red;
   text-align: center;
   text-shadow: 2px 0 5px black;
   font-size: 2rem;
+}
+main .contact-background .contact-info {
+  color: white;
+}
+main .contact-background .contact-info p span {
+  font-weight: bold;
+  font-size: larger;
+}
+main .contact-background .contact-info p a {
+  text-decoration: none;
+  color: white;
+}
+main .contact-background iframe {
+  display: flex;
+  width: 90%;
+  height: 40vh;
+  margin: auto;
 }
 
 /*# sourceMappingURL=Contact.css.map */
