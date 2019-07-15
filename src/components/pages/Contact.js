@@ -21,7 +21,7 @@ class Contact extends React.Component {
                     </p>
                   </div>
                   <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.681188709584!2d-119.25550348455417!3d50.29787877945465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537dd879dd685a97%3A0xf413a29ff8fbfaee!2s6301+Stickle+Rd%2C+Vernon%2C+BC+V1B+3R4!5e0!3m2!1ses!2sca!4v1563227008753!5m2!1ses!2sca"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20389.55232346327!2d-119.2630888!3d50.2976389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537dd879dd685a97%3A0xf413a29ff8fbfaee!2s6301+Stickle+Rd%2C+Vernon%2C+BC+V1B+3R4!5e0!3m2!1sen!2sca!4v1563228800695!5m2!1sen!2sca"
                       frameBorder="0"
                       allowFullScreen>
                   </iframe>
