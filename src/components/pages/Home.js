@@ -7,7 +7,7 @@ class Home extends React.Component {
     return (
         <main>
           <div className='background-image'></div>
-          <section>
+          <section className='home-section'>
             <h2>Squires Four, Vernon's Favourite Pub</h2>
             <p>Squires Four Pub is where to eat in Vernon, enjoy our adventurous menu featuring the best burger, wings
               and fries in town, amazing appies, and traditional english pub fare all in the comfort of our old english

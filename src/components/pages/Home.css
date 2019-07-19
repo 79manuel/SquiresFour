@@ -10,7 +10,14 @@ main .background-image {
   padding: 0;
   margin: 0;
 }
-main section h2, main section p {
+main .home-section {
+  padding: 0 5px;
+}
+main .home-section h2 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+main .home-section p {
   text-align: center;
 }
 

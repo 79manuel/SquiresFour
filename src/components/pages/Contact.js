@@ -4,7 +4,7 @@ import './Contact.sass';
 class Contact extends React.Component {
     render() {
         return (
-            <main>
+            <main className='contact-main'>
                 <section className='contact-background'>
                   <h1>Contact</h1>
                   <div className='contact-info'>

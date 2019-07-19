@@ -23,6 +23,9 @@
 .toolbar .toolbar__navigation .toolbar__navigation-items ul li {
   padding: 0 0.5rem;
 }
+.toolbar .toolbar__navigation .toolbar__navigation-items ul li a {
+  text-decoration: none;
+}
 .toolbar .toolbar__navigation .toolbar__navigation-items ul li:hover, .toolbar .toolbar__navigation .toolbar__navigation-items ul li:active {
   color: purple;
 }

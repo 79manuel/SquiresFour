@@ -1,33 +1,48 @@
-main {
+.contact-main {
   height: 100vh;
 }
-main .contact-background {
+.contact-main .contact-background {
   background-color: black;
   height: 100vh;
 }
-main .contact-background h1 {
+.contact-main .contact-background h1 {
   padding-top: 70px;
   color: red;
   text-align: center;
   text-shadow: 2px 0 5px black;
   font-size: 2rem;
 }
-main .contact-background .contact-info {
+.contact-main .contact-background .contact-info {
   color: white;
 }
-main .contact-background .contact-info p span {
+.contact-main .contact-background .contact-info p span {
   font-weight: bold;
   font-size: larger;
 }
-main .contact-background .contact-info p a {
+.contact-main .contact-background .contact-info p a {
   text-decoration: none;
   color: white;
 }
-main .contact-background iframe {
+.contact-main .contact-background iframe {
   display: flex;
   width: 90%;
   height: 40vh;
   margin: auto;
+}
+
+@media only screen and (min-width: 769px) {
+  .contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+  }
+  .contact-info p {
+    text-align: center;
+  }
+
+  iframe {
+    height: 50vh !important;
+  }
 }
 
 /*# sourceMappingURL=Contact.css.map */

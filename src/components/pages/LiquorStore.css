@@ -28,4 +28,10 @@ main .liquor-store-background .store__text-container {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
+@media only screen and (min-width: 769px) {
+  main {
+    min-height: unset;
+  }
+}
+
 /*# sourceMappingURL=LiquorStore.css.map */

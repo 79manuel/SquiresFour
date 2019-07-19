@@ -28,7 +28,7 @@ class Footer extends React.Component {
                   <a href='tel: 2505492226'>Phone: 250-549-2226</a><br/>
                 </p>
               </div>
-              <p className='footer__copyright'>Squires Four Public House @ 2019</p>
+              <p className='footer__copyright'>Squires Four Public House &copy; 2019</p>
             </div>
           </footer>
         );
