@@ -2,7 +2,6 @@
   height: 100vh;
 }
 .contact-main .contact-background {
-  background-color: black;
   height: 100vh;
 }
 .contact-main .contact-background h1 {
@@ -10,10 +9,10 @@
   color: red;
   text-align: center;
   text-shadow: 2px 0 5px black;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .contact-main .contact-background .contact-info {
-  color: white;
+  color: black;
 }
 .contact-main .contact-background .contact-info p span {
   font-weight: bold;
@@ -21,7 +20,7 @@
 }
 .contact-main .contact-background .contact-info p a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .contact-main .contact-background iframe {
   display: flex;

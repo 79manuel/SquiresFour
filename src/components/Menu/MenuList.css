@@ -8,7 +8,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 96%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   margin: 3.7rem auto 0 auto;
   padding: 10px 0;
@@ -17,6 +17,23 @@
   list-style: none;
   padding: 4px 7px;
   margin: 0;
+}
+
+@media only screen and (min-width: 769px) {
+  .menu-list-background {
+    display: flex;
+    height: 86rem;
+  }
+  .menu-list-background .menu-list {
+    width: 30% !important;
+    height: 80vh;
+    margin: 5rem auto 0 auto !important;
+    font-size: 1.5rem;
+  }
+  .menu-list-background .menu-list ul li {
+    padding: 7px 0;
+    cursor: pointer;
+  }
 }
 
 /*# sourceMappingURL=MenuList.css.map */

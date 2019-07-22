@@ -23,4 +23,20 @@
   font-size: 10px;
 }
 
+@media only screen and (min-width: 769px) {
+  .menu-details-wrapper__laptop {
+    width: 60%;
+    height: 100%;
+  }
+  .menu-details-wrapper__laptop .menu-details-container {
+    width: 90%;
+    height: auto;
+    margin: 5rem auto 0 auto;
+    font-size: 1.3rem;
+  }
+  .menu-details-wrapper__laptop .menu-details-container ul li p:nth-of-type(odd) {
+    font-size: 15px;
+  }
+}
+
 /*# sourceMappingURL=MenuDetails.css.map */
