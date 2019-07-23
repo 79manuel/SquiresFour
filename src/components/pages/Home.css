@@ -22,6 +22,8 @@ main .home-section h2 {
 }
 main .home-section p {
   text-align: center;
+  width: 80%;
+  margin: 0 auto 20px auto;
 }
 
 @media only screen and (min-width: 769px) {

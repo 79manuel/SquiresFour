@@ -25,7 +25,7 @@ main .liquor-store-background .store__text-container {
   width: 80%;
   margin: auto;
   padding: 15px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 3px 2px 5px black;
 }
 
 @media only screen and (min-width: 769px) {

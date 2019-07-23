@@ -7,6 +7,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 17px;
   color: white;
+  box-shadow: 3px 2px 5px black;
 }
 .background-image__section-1 .section-1__text-container p {
   text-align: justify;
@@ -14,12 +15,19 @@
 
 @media only screen and (min-width: 769px) {
   .background-image__section-1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
     height: 40rem;
   }
   .background-image__section-1 .section-1__text-container {
-    width: 50%;
+    grid-column: 2/12;
+    grid-row: 2/3;
+    width: 60%;
+    height: 70%;
     display: flex;
     flex-direction: column;
+    box-shadow: 3px 2px 5px black;
   }
 }
 
