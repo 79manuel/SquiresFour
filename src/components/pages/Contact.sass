@@ -9,25 +9,36 @@
       text-shadow: 2px 0 5px black
       font-size: 2.5rem
     .contact-info
-      color: black
+      p
+        display: flex
+        flex-direction: column
+        align-items: center
       p span
         font-weight: bold
-        font-size: larger
+        font-size: 1.5rem
+        text-align: center
       p a
         text-decoration: none
         color: black
     iframe
       display: flex
       width: 90%
-      height: 40vh
+      height: 33vh
       margin: auto
 
 @media only screen and (min-width: 769px)
   .contact-info
     display: flex
     justify-content: space-evenly
-    margin-bottom: 3rem
     p
       text-align: center
+    p span
+      font-weight: bold
+      font-size: 1.5rem
+      text-align: center
+      p a
+        text-decoration: none
+        color: black
   iframe
     height: 50vh !important
+    margin-bottom: 3rem !important

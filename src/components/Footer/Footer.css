@@ -7,12 +7,17 @@ footer .footer__hours p span {
 footer .footer__info {
   background-color: black;
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  text-align: center;
 }
 footer .footer__info div {
   display: flex;
   padding: 0 5px;
   justify-content: space-evenly;
+}
+footer .footer__info div p {
+  display: flex;
+  flex-direction: column;
 }
 footer .footer__info div p span {
   font-weight: bold;
@@ -23,6 +28,34 @@ footer .footer__info div p a {
 }
 footer .footer__info .footer__copyright {
   text-align: center;
+}
+
+@media only screen and (min-width: 796px) {
+  .footer__info {
+    padding: 7px 0;
+  }
+  .footer__info div {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__info div p {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .footer__info div p span {
+    font-weight: bold;
+    font-size: larger;
+    padding: 0 7px;
+  }
+  .footer__info div p a {
+    padding: 0 7px;
+  }
+  .footer__info .footer__copyright {
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=Footer.css.map */
