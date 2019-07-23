@@ -1,0 +1,63 @@
+.background-image .award8, .background-image .award7, .background-image .award6, .background-image .award5, .background-image .award4, .background-image .award3, .background-image .award2, .background-image .award1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  grid-column: 1/5;
+  height: 30px;
+  padding-left: 5px;
+}
+.background-image .award8 img, .background-image .award7 img, .background-image .award6 img, .background-image .award5 img, .background-image .award4 img, .background-image .award3 img, .background-image .award2 img, .background-image .award1 img {
+  width: 12%;
+  margin: 5px 0;
+}
+.background-image .award8 p, .background-image .award7 p, .background-image .award6 p, .background-image .award5 p, .background-image .award4 p, .background-image .award3 p, .background-image .award2 p, .background-image .award1 p {
+  color: white;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.background-image {
+  display: grid;
+  grid-template-rows: repeat(10, auto);
+  grid-template-columns: repeat(4, 1fr);
+  background: url("../../images/amie-johnson-VJXLzQi5TlE-unsplash.jpg") no-repeat center scroll;
+  background-size: cover;
+  height: 90vh;
+  padding: 0;
+  margin: 0;
+}
+.background-image .award1 {
+  grid-row: 3;
+}
+.background-image .award2 {
+  grid-row: 4;
+}
+.background-image .award3 {
+  grid-row: 5;
+}
+.background-image .award4 {
+  grid-row: 6;
+}
+.background-image .award5 {
+  grid-row: 7;
+}
+.background-image .award6 {
+  grid-row: 8;
+}
+.background-image .award7 {
+  grid-row: 9;
+}
+.background-image .award8 {
+  grid-row: 10;
+}
+
+@media only screen and (min-width: 796px) {
+  .background-image {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(7, 1fr);
+    height: 91vh;
+  }
+}
+
+/*# sourceMappingURL=Awards.css.map */
