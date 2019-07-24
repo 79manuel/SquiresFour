@@ -1,0 +1,62 @@
+%award-positioning-mobile
+  display: flex
+  justify-content: left
+  align-items: center
+  grid-column: 1 / 5
+  height: 30px
+  padding-left: 5px
+  img
+    width: 12%
+    margin: 5px 0
+  p
+    color: white
+    font-size: 1rem
+    padding: 5px
+    //background-color: rgba(0,0,0,0.7)
+
+.background-image
+  display: grid
+  grid-template-rows: repeat(10, auto)
+  grid-template-columns: repeat(4, 1fr)
+  background: url("../../images/amie-johnson-VJXLzQi5TlE-unsplash.jpg") no-repeat center scroll
+  background-size: cover
+  height: 90vh
+  padding: 0
+  margin: 0
+  .award1
+    grid-row: 3
+    @extend %award-positioning-mobile
+  .award2
+    grid-row: 4
+    @extend %award-positioning-mobile
+  .award3
+    grid-row: 5
+    @extend %award-positioning-mobile
+
+  .award4
+    grid-row: 6
+    @extend %award-positioning-mobile
+
+  .award5
+    grid-row: 7
+    @extend %award-positioning-mobile
+
+  .award6
+    grid-row: 8
+    @extend %award-positioning-mobile
+
+  .award7
+    grid-row: 9
+    @extend %award-positioning-mobile
+
+  .award8
+    grid-row: 10
+    @extend %award-positioning-mobile
+
+
+@media only screen and (min-width: 796px)
+  .background-image
+    display: grid
+    grid-template-rows: repeat(6, auto)
+    grid-template-columns: repeat(7, 1fr)
+    height: 91vh

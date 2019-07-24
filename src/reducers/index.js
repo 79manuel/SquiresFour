@@ -5,370 +5,302 @@ const MenuListReducer = () => {
     {
       course: 'Soups',
       items: {
-        item1: 'CUP OF SOUP WITH GARLIC TOAST ',
-        item2: 'BOWL OF SOUP WITH GARLIC TOAST ',
-        item3: 'SOUP & SANDWICH SPECIAL'
+        item1: 'Cup of Soup with Garlic Toast',
+        item2: 'Bowl of Soup with Garlic Toast',
+        item3: 'Soup & Sandwich Special'
       },
       details: {
         details1: '',
         details2: '',
       },
       prices: {
-        price1: '$6',
+        price1: '$7',
         price2: '$8',
-        price3: 'cup $10 | bowl $11'
+        price3: 'cup $11 | bowl $12'
       }
     },
     {
-      course: 'Starters',
+      course: 'Starters and Appetizers',
       items: {
-        item1: 'PITA & TZATZIKI (V)',
-        item2: 'DRY RIBS (GF)',
-        item3: 'CHICKEN FINGERS',
-        item4: 'WINGS (GFM)',
-        item5: 'POTATO SKINS (GF)',
-        item6: 'MUSHROOM CAPS (GFM)',
-        item7: 'CALAMARI',
-        item8: 'NACHOS (GF, V)',
-        item9: 'NACHOS for Two (GF,V)',
-        item10: 'ZUCCHINI STICKS with Ranch (V)'
+        item1: 'Wings (GF)',
+        item2: 'Pork Dry Ribs',
+        item3: 'Potstickers',
+        item4: 'Spring Rolls',
+        item5: 'Jenga Tofu (GF)',
+        item6: 'Calamari',
+        item7: 'Chicken Tenders',
+        item8: 'Potato Skins (GF)',
+        item9: 'Mushroom Caps (GF)',
+        item10: 'Pizza Dipping Sticks',
+        item11: 'Hot and Sticky Chicken Drumettes (GF)',
+        item12: 'Thai Curry Mussels',
+        item13: 'Squires Exclusive Platter'
       },
       details: {
-        details1: '',
-        details2: '',
-        details3: 'Served with honey mustard or plum sauce.',
-        details4: 'Try one of our many sauces: Buffalo, Dry Garlic, Honey\n' +
-            'Garlic, Honey Mustard, Hot, Teriyaki or Hot’n Sweet.',
-        details5: 'Loaded with real bacon, chives and cheese.',
-        details6: 'Stuffed with a blend of cream cheese, kamaboko, snow crab\n' +
-            'and chives, then baked. Served with garlic bread.',
-        details7: 'Lightly battered calamari garnished with banana peppers.\n' +
-            'Served with our own tzatziki and sambal aioli.',
-        details8: 'Crisp tortillas piled high with cheese, tomatoes, green onions\n' +
-            'and black olives. Served with salsa and sour cream.',
-        details9: 'The same great nachos only built for sharing.\n' +
-            'Taco Beef $3.50              Seasoned Chicken $3.50\n' +
-            'Banana Peppers $1.50         Guacamole $3.00\n' +
-            'Extra Cheese $2.50',
-        details10: ''
+        details1: 'Crisp golden chicken wings',
+        details2: 'Marinated in chef’s hong kong soya chili sauce served with squires margarita salt ',
+        details3: 'Pan fried potstickers filled with pork served with soya sauce',
+        details4: 'Fried to golden crispy goodness served with plum sauce',
+        details5: 'Pan fried tofu sauteed in ginger cashew sauce, over a bed of fried noodles or rice',
+        details6: 'Lightly battered calamari garnished with green onions, served with our tzatziki sauce',
+        details7: 'Served with honey mustard sauce',
+        details8: 'Stuffed with green onion and bacon topped with chef’s 3 cheese blend',
+        details9: 'Stuffed with cream cheese crab and kamaboko, chives and parmesan cheese, served with garlic toast',
+        details10: 'Baked to perfection, served with marinara sauce',
+        details11: 'Oven roasted sweet BBQ marinated chicken drumettes served with crispy potato chips',
+        details12: 'Atlantic mussels boiled in our Thai curry sauce, served with seasoned rice or noodles',
+        details13: '½ pound of wings, ½ lb dry ribs, ½ lb sirloin tips, french fries, battered zucchini,  and battered' +
+            ' mushrooms, served with your choice of 3 sauces: buffalo, honey mustard, or honey garlic'
       },
       prices: {
-        price1: '$8',
+        price1: '$14',
         price2: '$12',
-        price3: '$11',
-        price4: '$14',
+        price3: '$12',
+        price4: '$12',
         price5: '$12',
-        price6: '$12',
-        price7: '$15',
-        price8: '$14',
-        price9: '$22',
-        price10: '$10'
+        price6: '$15',
+        price7: '$12',
+        price8: '$12',
+        price9: '$12',
+        price10: '$10',
+        price11: '$13',
+        price12: '$19',
+        price13: '$24'
       }
     },
     {
       course: 'Salads',
       items: {
-        item1: 'CAESAR SALAD (GFM)',
-        item2: 'GREEK SALAD (GFM, V)',
-        item3: 'CHEF SALAD (GF)',
-        item4: 'SPICY THAI CHICKEN SALAD',
-        item5: 'MANDARIN PRAWN SALAD (GF)'
+        item1: '',
+        item2: 'Classic House Salad (GF)',
+        item3: 'Greek Salad (GF)',
+        item4: 'Caesar Salad (GF)',
+        item5: 'Cranberry Feta Walnut Salad (GF)',
+        item6: 'Spinach Apple Pecan Salad  (GF)'
       },
       details: {
-        details1: '',
-        details2: '',
-        details3: 'Fresh greens with ham, turkey, hard boiled egg,\n' +
-            'tomatoes, cucumber and cheese. Choice of dressing',
-        details4: 'Thai marinated chicken breast served over romaine lettuce,\n' +
-            'noodles, tomatoes, red onions and peanuts.\n' +
-            'Served with peanut sauce.',
-        details5: 'Sautéed Prawns, mandarin oranges, diced red onions on a bed\n' +
-            'of spinach, served with a mandarin orange sesame dressing\n' +
-            'and garnished with tempura battered green beans'
+        details1: 'Ask your server to add chicken ($5), tofu ($3), beef ($4), prawns ($5)',
+        details2: 'Crisp greens served with our assortment of garden vegetables',
+        details3: 'Garden fresh peppers, onions, cucumbers, and tomatoes, topped with olives and feta',
+        details4: 'T4 Pub caesar dressing married with local romaine lettuce, rolled in parmesan cheese',
+        details5: 'Iceberg washed in lemon juice, topped with feta and toasted walnuts',
+        details6: 'Fresh local spinach with local apples and candied pecans, garnished with goat cheese'
       },
       prices: {
-        price1:'$13',
-        price2: '$15',
-        price3: '$18',
-        price4: '$18',
-        price5: '$18'
+        price1:'',
+        price2: '$8',
+        price3: '$15',
+        price4: '$13',
+        price5: '$17',
+        price6: '$16'
       }
     },
     {
-      course: 'Entrees',
-      items: {
-        item1: 'BABY BACK RIBS (GF)',
-        item2: 'NEW YORK STRIPLOIN STEAK (GF)',
-        item3: 'WILD SALMON (GF)',
-        item4: 'SCHNITZEL',
-        item5: '',
-        item6: 'BUTTER CHICKEN',
-        item7: 'CHICKEN SOUVLAKI (GFM)'
-      },
-      details: {
-        details1:'Baked in our own special BBQ sauce',
-        details2: 'Tenderly aged Angus N.Y. Striploin, charbroiled\n' +
-            'and served with sautéed mushrooms.',
-        details3: 'A grilled wild salmon fillet, topped with a balsamic reduction',
-        details4: 'German style pork schnitzel served with mushroom sauce and lemon',
-        details5: 'The above entrees served with seasonal vegetables & mashed potatoes, tomato pasta, ' +
-            'alfredo pasta or rice.',
-        details6: 'Authentic Indian Curry featuring, garlic, ginger, chilies and masala spices. Served with rice & ' +
-            'naan bread. Your choice of mild, medium or hot.',
-        details7: 'Skewers of seasoned chicken breast, served on rice, with\n' +
-            'greek salad, lemon potato, pita and tzatziki.',
-      },
-      prices: {
-        price1: 'Half Rack: $20\n' +
-                'Full Rack: $$26',
-        price2: '8oz New York: $25\n' +
-                'Add garlic shrimp: $6',
-        price3: '$21',
-        price4: '$20',
-        price5: '',
-        price6: '$19',
-        price7: '$19',
-      }
-    },
-    {
-      course: 'Squires Bowls',
-      items: {
-        item1: 'LINGUINE ALFREDO (V)',
-        item2: '',
-        item3: 'JAMBALAYA',
-        item4: 'SPICY MEATBALL LINGUINE',
-        item5: 'STIR-FRY (GFM)'
-
-      },
-      details: {
-        details1: 'Served with garlic toast',
-        details2:'',
-        details3: 'Chicken, prawns, chorizo sausage, peppers, & onions in a spicy\n' +
-            'tomato sauce. Served with garlic toast.',
-        details4: 'Hand made meatballs, tossed in our own herbed tomato sauce.\n' +
-            'Served with garlic toast.',
-        details5: 'Sautéed vegetables tossed in our own house-made ginger\n' +
-            'sauce. Served over rice or noodles.',
-      },
-      prices: {
-        price1: '$14',
-        price2: 'Add Chicken or Prawns: $4',
-        price3: '$19',
-        price4: '$17',
-        price5: 'Vegetarian: $15',
-        price6: 'Chicken: $17',
-        price7: 'Breaded Beef: $18',
-        price8: 'Prawn: $19'
-      }
-    },
-    {
-      course: 'Pub Faire',
+      course: 'Stir Fry Pasta Bowls',
       items: {
         item1: '',
-        item2: 'SQUIRES CLUBHOUSE',
-        item3: 'GARDEN PATCH (V)',
-        item4: 'REUBEN',
-        item5: 'CHICKEN CAESAR WRAP',
-        item6: 'SPICY VEGETARIAN WRAP (V)',
-        item7: 'CLUBHOUSE WRAP',
-        item8: 'BEEF DIP',
-        item9: 'PHILLY SANDWICH',
-        item10: 'BRATWURST & SAUERKRAUT',
-        item11: 'CHICKEN QUESADILLA',
-        item12: 'NEW YORK STEAK SANDWICH',
-        item13: 'FISH TACOS '
+        item2: '',
+        item3: '',
+        item4: 'Public House Lazy Lasagna',
       },
       details: {
-        details1: 'Accompanied with your choice of soup, tossed or fries. Sub caesar or yam fries $1.50 • Gluten free Bun $3',
-        details2: 'Bacon, lettuce, tomato, cheddar, ham and turkey.',
-        details3: 'Tomato, sprouts, cucumber, onion, lettuce, guacamole\n' +
-            'and swiss cheese',
-        details4: 'Grilled corned beef, sauerkraut and swiss cheese on rye.',
-        details5: 'Chicken breast, crisp romaine and our own homemade\n' +
-            'caesar dressing.',
-        details6: 'Avocado, spicy fried pickles, chipotle mayo, lettuce,\n' +
-            'tomato and cheese',
-        details7: 'Chicken breast, mixed cheese, chipotle mayo, bacon,\n' +
-            'tomato and lettuce.',
-        details8: '',
-        details9: 'Shaved beef, onions, peppers\n' +
-            'topped with swiss cheese, then baked.',
-        details10: 'Served on a warmed hoagie bun with smokey mustard.',
-        details11: 'Peppers, onions and a jack/cheddar cheese blend in\n' +
-            'a grilled roma tomato tortilla. Served with salsa\n' +
-            'and sour cream',
-        details12: 'A N.Y. Striploin, served with sautéed mushrooms\n' +
-            'and garlic toast',
-        details13: 'Battered cod served with chili lime slaw and sambal aioli.'
+        details1:'Local vegetables sauteed in your choice of homemade sauce,  and rice or pasta served with garlic toast',
+        details2: 'Sauces: Indian Masala • Thai Peanut Sauce • Ginger Soya • Veg Creole • Rosé Sauce • Alfredo • Bolognese',
+        details3: 'Pasta: Linguine • Egg Noodle • Oriental Noodle • Bowtie',
+        details4: 'Served with garlic toast',
+      },
+      prices: {
+        price1: '',
+        price2: '',
+        price3: 'Choice of: Veggie $13 • Prawn $18 • Chicken $17 • Beef $17',
+        price4: '$17',
+      }
+    },
+    {
+      course: 'Flatbread Pizza',
+      items: {
+        item1: 'Squires Pizza',
+        item2: 'Caribbean Delight  ',
+        item3: 'Canadian Back Bacon Pizza',
+      },
+      details: {
+        details1: 'Oven roasted flatbread topped with pepperoni, ham, green peppers, onions,  mushrooms, pineapple, ' +
+            'banana peppers, and topped with mozza cheese',
+        details2:'Marinated chicken in jerk sauce, with peppers and onions,  topped with spicy goat cheese',
+        details3: 'Double layered Canadian back bacon and mushrooms, topped with smoked  bacon smothered in trio cheese',
+      },
+      prices: {
+        price1: '$17',
+        price2: '$17',
+        price3: '$18',
+      }
+    },
+    {
+      course: 'Sq Hand-helds',
+      items: {
+        item1: '',
+        item2: 'Beef Dip',
+        item3: 'SQ Rueben',
+        item4: 'Public House 4 Clubhouse',
+        item5: 'Spicy Guacamole Roasted Pepper Lettuce Wrap',
+        item6: 'Sirloin Steak Sandwich',
+        item7: 'Fish Taco',
+        item8: 'Chicken Caesar Wrap',
+        item9: 'Chicken Quesadilla',
+        item10: 'Memphis-Style Foot Long Hot Dog'
+      },
+      details: {
+        details1: 'Served with choice salad or fries Upgrade to a caesar salad $1.50. Sub root vegetable fries $2.50',
+        details2: 'Add peppers and onions (we’ll give you the cheese) to make it a philly $17',
+        details3: 'Stacked on a ciabatta bun with dijon mustard',
+        details4: 'Bacon, lettuce, tomato, cheddar, ham, and oven roasted turkey',
+        details5: 'Crisp iceberg loaded with sprouts and roasted red peppers, onions, carrots',
+        details6: 'Marinated in herb lemon oil cooked to your preference. Every day, all day',
+        details7: 'Battered cod served with salsa fresca, topped with tomato, green onion, and cheese',
+        details8: 'Oven roasted chicken breast with romaine and parmesan cheese',
+        details9: 'Classic grilled quesadilla with peppers, onions, chef’s 3 cheese blend, chicken breast served with ' +
+            'salsa and sour cream ',
+        details10: 'Boiled first, then grilled to finish with BBQ sauce, bacon and green onions, and topped with cheese',
       },
       prices: {
         prices1: '',
         prices2: '$16',
         price3: '$15',
-        price4: '$14',
-        price5: '$14',
-        price6: '$17',
+        price4: '$17',
+        price5: '$16',
+        price6: '$20',
         price7: '$15',
         price8: '$15',
-        price9: '$17',
-        price10: '$14',
-        price11: '$16',
-        price12: '$20',
-        price13: '$14'
+        price9: '$16',
+        price10: '$12'
       }
     },
     {
-      course: 'Gourmet Burguers',
+      course: 'Gourmet Burgers',
       items: {
         item1:'',
-        item2: 'SQUIRES BURGER',
-        item3: 'MUSHROOM BURGER',
-        item4: 'FRIED CHICKEN BURGER',
-        item5: 'CHIPOTLE BURGER',
-        item6: 'FISH BURGER'
+        item2: 'Squires Burger',
+        item3: 'Chef’s Burger',
+        item4: 'Breakfast Burger',
+        item5: 'HWY 97 Burger',
+        item6: 'Portobello Mushroom Stack (GF)'
       },
       details: {
-        details1: 'Our burgers are served with lettuce, tomato, pickle and your choice of salad or fries.\n' +
-            'Your choice of beef patty,veggie patty or chicken breast • Gluten free bun $3',
-        details2: 'Bacon, cheddar cheese, sautéed mushrooms and onions.',
-        details3: 'Sautéed mushrooms.',
-        details4: 'House breaded and fried chicken breast, spicy sambal aioli,\n' +
-            'jalapeño jack cheese',
-        details5: 'Fried pickles, chipotle mayo, jalapeño jack cheese.',
-        details6: 'Filet of Tilapia baked with garlic and lemon,\n' +
-            'served with tartar sauce.'
-      },
-      prices: {
-        price1: '',
-        price2: '$17',
-        price3: '$16',
-        price4: '$18',
-        price5: '$18',
-        price6: '$19'
-      }
-    },
-    {
-      course: 'British Fairs',
-      items: {
-        item1:'',
-        item2: 'SALISBURY STEAK',
-        item3: 'LIVER & ONIONS ',
-        item4: 'SHEPARDS PIE',
-        item5: 'FISH & CHIPS'
-      },
-      details: {
-        details1: 'British fare served with choice of soup, tossed or fries • Sub caesar or yam fries $1.50',
-        details2: 'A 6oz ground chuck steak with sautéed onions, mushrooms,\n' +
-            'mashed potatoes, seasonal vegetables and gravy.',
-        details3: 'Lightly floured and grilled. Served with sautéed onions,\n' +
-            'mashed potatoes, seasonal dinner vegetables and gravy',
-        details4: 'Traditional British pie of beef and vegetables covered with mashed potatoes and gravy',
-        details5: 'Coated in our own beer tempura and served with tartar.'
+        details1: 'Our burgers are served with lettuce, tomato, and pickle, with a choice of beef, chicken, or veggie ' +
+            'patty; and your choice of salad or fries Upgrade to a caesar salad $1.50. Sub root vegetable fries $2.50',
+        details2: 'Bacon, cheddar cheese, sauteed mushrooms, and onions',
+        details3: 'Bacon, jack cheese, fried egg, pineapple, banana pepper, teriyaki sauce',
+        details4: 'Pancake, bacon, and cheddar cheese, topped with a fried egg smothered in maple syrup',
+        details5: 'Grilled salmon burger brushed with pesto, topped with mango salsa',
+        details6: 'Sauteed portabella, piled with eggplant, zucchini, onion, tomato, topped with mozza'
       },
       prices: {
         price1: '',
         price2: '$17',
         price3: '$18',
-        price4: '$17',
-        price5: '1 piece: $14',
-        price6: '2 piece: $19'
+        price4: '$18',
+        price5: '$19',
+        price6: '$17'
       }
     },
     {
-      course: 'Squires Breakfast Menu (8am - 11am)',
+      course: 'Squires favourites',
       items: {
-        item1: 'SQUIRES BREAKFAST STEAL',
-        item2: 'GREEK YOGURT with strawberries and granola',
-        item3: 'BACON, SAUSAGE, or HAM and EGGS . ',
-        item4: 'BREAKFAST WRAP',
-        item5: 'GREEK WRAP',
-        item6: 'BREAKFAST SKILLET',
-        item7: 'MEDITERRANEAN SKILLET',
-        item8: 'CHIPOTLE SKILLET'
+        item1: 'Butter Chicken  ',
+        item2: 'Greek Chicken Souvlaki',
+        item3: 'Fish ‘n’ Chips'
       },
       details: {
-        details1:'2 eggs, 2 slices bacon, 1 slice toast ½ order hash browns',
-        details2: '',
-        details3: '2 eggs (bacon, sausages or ham) 2 slices toast, hash browns',
-        details4: 'Served with Hash browns. Chipotle mayo, scrambled eggs, cheese.',
-        details5: 'Served with Hash browns. Tzatziki, scrambled eggs, cheese, olives, red onion,\n' +
-            'tomatoes, spinach',
-        details6: 'Served with side toast. Hash browns, 2 eggs, cheese, green onions',
-        details7: 'Served with side toast. Hash browns, 2 eggs, feta cheese, olives, red onion, tomatoes,\n' +
-            'spinach, tzatziki',
-        details8: 'Served with side toast. Hash browns, 2 eggs, cheese, peppers, onions, chipotle mayo.'
+        details1: 'Marinated chicken in masala spices, dropped in cream and butter served  with naan and seasoned rice',
+        details2: 'Skewers of marinated oven-roasted chicken breast served on rice',
+        details3: 'Beer tempura battered cod, served with house-made salsa fresca and tartar'
       },
       prices: {
-        price1: '$7',
-        price2: '$7',
-        price3: '$10',
-        price4: '$12',
-        price5: '$12',
-        price6: '$14',
-        price7: '$14',
-        price8: '$14'
+        price1: '$19',
+        price2: '$20',
+        price3: '$18'
+      }
+    },
+    {
+      course: 'Squires Exclusives',
+      items: {
+        item1: '',
+        item2: 'Char-Grilled New York Steak (GF)',
+        item3: 'Pork Schnitzel',
+        item4: 'Fiery Tunisian Harrisa Lamb (GF)',
+        item5: 'Bacon Cheeseburger Meatloaf',
+        item6: 'Jamican Jerk Chicken',
+        item7: 'Lime Cilantro Salmon Filet (GF)',
+        item8: 'Blackened Shrimp with Onions and Tomatoes',
+        item9: 'Char-Grilled Salisbury Steak'
+      },
+      details: {
+        details1:'All entrees served with choice of seasonal vegetables/salad  and choice of rice or potato',
+        details2: 'Tenderly aged AAA 8oz striploin charbroiled and served with mushrooms',
+        details3: 'Traditional German style pork schnitzel served with mushroom sauce and lemon',
+        details4: 'Smoked chili peppers and cumin-infused lamb chops grilled to perfection, topped with roasted garlic',
+        details5: 'Homemade meatloaf covered in our cheesy gravy',
+        details6: 'Marinated chicken breast with onions peppers and pineapple — available mild or spicy',
+        details7: 'Filet of salmon grilled with cilantro butter ',
+        details8: 'White shrimp sauteed with crunchy onions and roasted peppers, topped with fresh local tomato',
+        details9: 'Topped with onions, mushrooms, and our gravy — home made every day'
+      },
+      prices: {
+        price1: '',
+        price2: '$26',
+        price3: '$19',
+        price4: '$21',
+        price5: '$17',
+        price6: '$20',
+        price7: '$20',
+        price8: '$19',
+        price9: '$17'
+      }
+    },
+    {
+      course: 'Nachos',
+      items: {
+        item1:'For One',
+        item2: 'For Two',
+        item3: 'Add Toppings:',
+        item4: 'For One',
+        item5: 'For Two'
+
+      },
+      details: {
+        details1: 'Crisp tortillas piled high with cheese sauce, tomatoes, green onions, olives; served with salsa and \' +\n' +
+            ' \'sour cream ',
+        details2: '',
+        details3: '',
+        details4: '',
+        details5: ''
+      },
+      prices: {
+        price1: '$15',
+        price2: '$23',
+        price3: '',
+        price4: 'Beef $2.50, Chicken $3.00, Guacamole $3.00 ',
+        price5: 'Beef $4.00, Chicken $5.00, Guacamole $5.00'
       }
     },
     {
       course: 'Desserts',
       items: {
-        item1:'',
-        item2: 'STRAWBERRY CHEESECAKE (V)',
-        item3: 'MOLTEN CHOCOLATE CAKE (V)',
-        item4: 'FEATURE DESSERT'
+        item1: 'Strawberry Cheesecake',
+        item2: 'Peach Cobbler',
+        item3: 'Chef\'s Choice'
       },
       details: {
-        details1: 'A perfect way to end a wonderful experience...\n' +
-            'Try one of our decadent desserts.',
-        details2: 'Whipped cheesecake made from scratch, topped with strawberries and whipped cream',
-        details3: 'Whipped cheesecake made from scratch, topped with strawberries and whipped cream',
-        details4: 'Ask your server about today’s feature selection.'
+        details1: '',
+        details2: '',
+        details3: ''
       },
       prices: {
-        price1: '',
-        price2: '$7',
-        price3: '$9',
-        price4: ''
+        price1: '$8',
+        price2: '$8',
+        price3: 'TBD'
       }
     },
-    {
-      course: 'Specialty Coffee',
-      items: {
-        item1:'SQUIRES COFFEE',
-        item2: 'MILLIONAIRE COFFEE',
-        item3: 'IRISH COFFEE',
-        item4: 'B-52',
-        item5: 'CAFE BUENO',
-        item6: 'POLAR BEAR',
-        item7: 'MONTE CRISTO',
-        item8: 'SPANISH COFFEE',
-        item9: 'BLUEBERRY TEA'
-      },
-      details: {
-        details1: 'Amaretto & Tia Maria',
-        details2: 'Kahlúa, Baileys, Grand Marnier & Frangelico',
-        details3: 'Irish Whisky & Kahlúa',
-        details4: 'Grand Marnier, Kahlúa & Baileys',
-        details5: 'Kahlúa & Brandy',
-        details6: 'Peppermint Schnapps & Baileys\n' +
-            '(with hot chocolate)',
-        details7: 'Grand Marnier & Kahlúa',
-        details8: 'Brandy & Tia Maria',
-        details9: 'Amaretto & Grand Marnier'
-      },
-      prices: {
-        price1: '',
-        price2: '',
-        price3: '',
-        price4: '',
-        price5: '',
-        price6: '',
-        price7: '',
-        price8: '',
-        price9: ''
-      }
-    },
-
   ]
 };
 

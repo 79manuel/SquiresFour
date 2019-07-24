@@ -1,16 +1,31 @@
 .menu-list-background
   background: url("../../images/menu-background.jpg") no-repeat center scroll
   background-size: cover
-  height: 150vh
+  height: 76rem
   .menu-list
     display: flex
     justify-content: center
     flex-wrap: wrap
     width: 96%
-    background-color: rgba(0,0,0, 0.5)
+    background-color: rgba(0,0,0, 0.7)
     color: white
-    margin: 3.8125rem auto 0 auto
+    margin: 3.7rem auto 0 auto
+    padding: 10px 0
     ul
       list-style: none
       padding: 4px 7px
       margin: 0
+
+@media only screen and (min-width: 769px)
+  .menu-list-background
+    display: flex
+    height: 86rem
+    .menu-list
+      width: 30% !important
+      height: 80vh
+      margin: 5rem auto 0 auto !important
+      font-size: 1.5rem
+      ul
+        li
+          padding: 7px 0
+          cursor: pointer

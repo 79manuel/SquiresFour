@@ -7,15 +7,40 @@ footer
   .footer__info
     background-color: black
     color: white
-    font-size: 0.7rem
+    font-size: 0.6rem
+    text-align: center
     div
       display: flex
       padding: 0 5px
       justify-content: space-evenly
-      p span
-        font-weight: bold
-      p a
-        color: white
-        text-decoration: none
+      p
+        display: flex
+        flex-direction: column
+        span
+          font-weight: bold
+        a
+          color: white
+          text-decoration: none
     .footer__copyright
       text-align: center
+
+@media only screen and (min-width: 796px)
+  .footer__info
+    padding: 7px 0
+    div
+      display: flex
+      flex-direction: column
+      p
+        display: flex !important
+        flex-direction: row !important
+        justify-content: center
+        align-items: center
+        margin: 0
+        span
+          font-weight: bold
+          font-size: larger
+          padding: 0 7px
+        a
+          padding: 0 7px
+    .footer__copyright
+      margin-top: 0

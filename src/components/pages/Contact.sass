@@ -1,9 +1,44 @@
-.contact-background
-  background-color: black
-  h1
-    padding-top: 70px
-    color: red
-    text-align: center
-    text-shadow: 2px 0 5px black
-    font-size: 2rem
+.contact-main
+  height: 100vh
+  .contact-background
+    height: 100vh
+    h1
+      padding-top: 70px
+      color: red
+      text-align: center
+      text-shadow: 2px 0 5px black
+      font-size: 2.5rem
+    .contact-info
+      p
+        display: flex
+        flex-direction: column
+        align-items: center
+      p span
+        font-weight: bold
+        font-size: 1.5rem
+        text-align: center
+      p a
+        text-decoration: none
+        color: black
+    iframe
+      display: flex
+      width: 90%
+      height: 33vh
+      margin: auto
 
+@media only screen and (min-width: 769px)
+  .contact-info
+    display: flex
+    justify-content: space-evenly
+    p
+      text-align: center
+    p span
+      font-weight: bold
+      font-size: 1.5rem
+      text-align: center
+      p a
+        text-decoration: none
+        color: black
+  iframe
+    height: 50vh !important
+    margin-bottom: 3rem !important
