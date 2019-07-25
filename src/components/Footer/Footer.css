@@ -3,6 +3,7 @@ footer .footer__hours {
 }
 footer .footer__hours p span {
   font-weight: bold;
+  font-size: larger;
 }
 footer .footer__info {
   background-color: black;

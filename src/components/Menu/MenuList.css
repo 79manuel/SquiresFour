@@ -8,7 +8,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 96%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   margin: 3.7rem auto 0 auto;
   padding: 10px 0;
@@ -33,6 +33,7 @@
   .menu-list-background .menu-list ul li {
     padding: 7px 0;
     cursor: pointer;
+    margin: 0 27px;
   }
 }
 

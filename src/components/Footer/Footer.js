@@ -8,10 +8,9 @@ class Footer extends React.Component {
             <div className='footer__hours'>
               <h1>HOURS</h1>
               <p>
-                <span>Sunday, Monday, Tuesday, Wednesday</span><br/>
-                8am - 11pm - Kitchen closes @ 9pm<br/>
-                <span>Thursday, Friday, Saturday</span><br/>
-                8am - 11pm - Kitchen closes @ 10pm<br/>
+                <span>8 a.m. to 11 p.m. everyday</span><br/>
+                <span>Kitchen closes at 9 p.m.<br/>
+                  (10 p.m. Thu, Fri, Sat)</span><br/>
               </p>
             </div>
             <div className='footer__info'>
@@ -24,7 +23,7 @@ class Footer extends React.Component {
                    </p>
                 <p>
                   <span>Squires Four Cold Beer & Wine Store</span>
-                  6301 Stickle Road Vernon
+                  6301 Stickle Road Vernon.
                   <a href='tel: 2505492226'>Phone: 250-549-2226</a>
                 </p>
               </div>
