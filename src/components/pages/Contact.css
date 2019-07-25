@@ -25,10 +25,12 @@
   text-decoration: none;
   color: black;
 }
-.contact-main .contact-background iframe {
-  display: flex;
-  width: 90%;
-  height: 40%;
+.contact-main .contact-background .iframe-container {
+  height: 50vh;
+}
+.contact-main .contact-background .iframe-container iframe {
+  width: 100%;
+  height: 30vh;
   margin: auto;
 }
 
@@ -50,9 +52,13 @@
     color: black;
   }
 
-  iframe {
+  .iframe-container {
     height: 50vh !important;
-    margin-bottom: 3rem !important;
+  }
+  .iframe-container iframe {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
   }
 }
 
