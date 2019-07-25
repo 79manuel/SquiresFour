@@ -8,7 +8,7 @@
   padding-top: 70px;
   color: red;
   text-align: center;
-  text-shadow: 2px 0 5px black;
+  text-shadow: 1px 1px 2px black;
   font-size: 2.5rem;
 }
 .contact-main .contact-background .contact-info p {
@@ -25,10 +25,12 @@
   text-decoration: none;
   color: black;
 }
-.contact-main .contact-background iframe {
-  display: flex;
-  width: 90%;
-  height: 33vh;
+.contact-main .contact-background .iframe-container {
+  height: 50vh;
+}
+.contact-main .contact-background .iframe-container iframe {
+  width: 100%;
+  height: 28vh;
   margin: auto;
 }
 
@@ -50,9 +52,15 @@
     color: black;
   }
 
-  iframe {
+  .iframe-container {
+    width: 90%;
     height: 50vh !important;
-    margin-bottom: 3rem !important;
+    margin: auto;
+  }
+  .iframe-container iframe {
+    width: 100% !important;
+    height: 50vh !important;
+    margin: auto !important;
   }
 }
 
