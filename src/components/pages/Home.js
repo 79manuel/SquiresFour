@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionOneHome from '../sections/SectionOneHome';
+import SectionSpecialsHome from "../sections/SectionSpecialsHome";
 import './Home.sass';
 
 class Home extends React.Component {
@@ -14,6 +15,7 @@ class Home extends React.Component {
               and fries in town, amazing appies, and traditional english pub fare all in the comfort of our old english
               style pub.</p>
           </section>
+          <SectionSpecialsHome />
           <SectionOneHome />
         </main>
     );
