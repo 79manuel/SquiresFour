@@ -53,12 +53,14 @@
   }
 
   .iframe-container {
+    width: 90%;
     height: 50vh !important;
+    margin: auto;
   }
   .iframe-container iframe {
-    width: 100%;
-    height: 50vh;
-    margin: auto;
+    width: 100% !important;
+    height: 50vh !important;
+    margin: auto !important;
   }
 }
 
