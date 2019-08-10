@@ -1,9 +1,17 @@
 footer
   .footer__hours
     text-align: center
-    p span
-      font-weight: bold
-      font-size: larger
+    .footer__hours__alignment
+      display: flex
+      justify-content: space-evenly
+      p
+        font-size: smaller
+        span
+          font-weight: bold
+          font-size: larger
+    h1
+      margin-bottom: 0
+
 
   .footer__info
     background-color: black
@@ -26,6 +34,9 @@ footer
       text-align: center
 
 @media only screen and (min-width: 796px)
+  .footer__hours__alignment
+    font-size: x-large
+
   .footer__info
     padding: 7px 0
     div

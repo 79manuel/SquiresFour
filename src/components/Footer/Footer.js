@@ -7,11 +7,18 @@ class Footer extends React.Component {
           <footer>
             <div className='footer__hours'>
               <h1>HOURS</h1>
-              <p>
-                <span>8 a.m. to 11 p.m. everyday</span><br/>
-                <span>Kitchen closes at 9 p.m.<br/>
-                  (10 p.m. Thu, Fri, Sat)</span><br/>
-              </p>
+              <section className='footer__hours__alignment'>
+                <p>
+                  <span>Squires Four Pub</span><br/>
+                    11 a.m. to 11 p.m. everyday<br/>
+                  (10 a.m. to 11 p.m. Sunday)<br/>
+                  Kitchen closes at 9 p.m.
+                </p>
+                <p>
+                  <span>Liquor Store</span><br/>
+                  9am-11pm every day<br/>
+                </p>
+              </section>
             </div>
             <div className='footer__info'>
               <div>
@@ -24,7 +31,7 @@ class Footer extends React.Component {
                 <p>
                   <span>Squires Four Cold Beer & Wine Store</span>
                   6301 Stickle Road Vernon.
-                  <a href='tel: 2505492226'>Phone: 250-549-2226</a>
+                  <a href='tel: 2505492144'>Phone: 250-549-2144</a>
                 </p>
               </div>
               <p className='footer__copyright'>Squires Four Public House &copy; 2019</p>

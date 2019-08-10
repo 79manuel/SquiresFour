@@ -34,7 +34,10 @@ const MenuListReducer = () => {
         item10: 'Pizza Dipping Sticks',
         item11: 'Hot and Sticky Chicken Drumettes (GF)',
         item12: 'Thai Curry Mussels',
-        item13: 'Squires Exclusive Platter'
+        item13: 'Squires Exclusive Platter',
+        item14: 'Nachos',
+        item15: 'For One',
+        item16: 'For Two'
       },
       details: {
         details1: 'Crisp golden chicken wings',
@@ -50,7 +53,9 @@ const MenuListReducer = () => {
         details11: 'Oven roasted sweet BBQ marinated chicken drumettes served with crispy potato chips',
         details12: 'Atlantic mussels boiled in our Thai curry sauce, served with seasoned rice or noodles',
         details13: '½ pound of wings, ½ lb dry ribs, ½ lb sirloin tips, french fries, battered zucchini,  and battered' +
-            ' mushrooms, served with your choice of 3 sauces: buffalo, honey mustard, or honey garlic'
+            ' mushrooms, served with your choice of 3 sauces: buffalo, honey mustard, or honey garlic',
+        details14: 'Crisp tortillas piled high with cheese sauce, tomatoes, green onions, olives; served with salsa and ' +
+            'sour cream '
       },
       prices: {
         price1: '$14',
@@ -65,9 +70,39 @@ const MenuListReducer = () => {
         price10: '$10',
         price11: '$13',
         price12: '$19',
-        price13: '$24'
+        price13: '$24',
+        price14: '$15',
+        price15: '$23',
+        price16: 'Add Toppings: Beef $2.50, Chicken $3.00, Guacamole $3.00 ',
+        price17: 'Add Toppings: Beef $4.00, Chicken $5.00, Guacamole $5.00'
       }
     },
+    // {
+    //   course: 'Nachos',
+    //   items: {
+    //     item1:'For One',
+    //     item2: 'For Two',
+    //     item3: 'Add Toppings:',
+    //     item4: 'For One',
+    //     item5: 'For Two'
+    //
+    //   },
+    //   details: {
+    //     details1: 'Crisp tortillas piled high with cheese sauce, tomatoes, green onions, olives; served with salsa and \' +\n' +
+    //         ' \'sour cream ',
+    //     details2: '',
+    //     details3: '',
+    //     details4: '',
+    //     details5: ''
+    //   },
+    //   prices: {
+    //     price1: '$15',
+    //     price2: '$23',
+    //     price3: '',
+    //     price4: 'Beef $2.50, Chicken $3.00, Guacamole $3.00 ',
+    //     price5: 'Beef $4.00, Chicken $5.00, Guacamole $5.00'
+    //   }
+    // },
     {
       course: 'Salads',
       items: {
@@ -82,7 +117,7 @@ const MenuListReducer = () => {
         details1: 'Ask your server to add chicken ($5), tofu ($3), beef ($4), prawns ($5)',
         details2: 'Crisp greens served with our assortment of garden vegetables',
         details3: 'Garden fresh peppers, onions, cucumbers, and tomatoes, topped with olives and feta',
-        details4: 'T4 Pub caesar dressing married with local romaine lettuce, rolled in parmesan cheese',
+        details4: '4 Pub caesar dressing married with local romaine lettuce, rolled in parmesan cheese',
         details5: 'Iceberg washed in lemon juice, topped with feta and toasted walnuts',
         details6: 'Fresh local spinach with local apples and candied pecans, garnished with goat cheese'
       },
@@ -163,8 +198,8 @@ const MenuListReducer = () => {
         details10: 'Boiled first, then grilled to finish with BBQ sauce, bacon and green onions, and topped with cheese',
       },
       prices: {
-        prices1: '',
-        prices2: '$16',
+        price1: '',
+        price2: '$16',
         price3: '$15',
         price4: '$17',
         price5: '$16',
@@ -212,7 +247,8 @@ const MenuListReducer = () => {
       },
       details: {
         details1: 'Marinated chicken in masala spices, dropped in cream and butter served  with naan and seasoned rice',
-        details2: 'Skewers of marinated oven-roasted chicken breast served on rice',
+        details2: 'skewers of marinated oven-roasted chicken breast served on rice ,baby lemon potato, greek salad, ' +
+            'tzatiki and pita bread.',
         details3: 'Beer tempura battered cod, served with house-made salsa fresca and tartar'
       },
       prices: {
@@ -255,32 +291,6 @@ const MenuListReducer = () => {
         price7: '$20',
         price8: '$19',
         price9: '$17'
-      }
-    },
-    {
-      course: 'Nachos',
-      items: {
-        item1:'For One',
-        item2: 'For Two',
-        item3: 'Add Toppings:',
-        item4: 'For One',
-        item5: 'For Two'
-
-      },
-      details: {
-        details1: 'Crisp tortillas piled high with cheese sauce, tomatoes, green onions, olives; served with salsa and \' +\n' +
-            ' \'sour cream ',
-        details2: '',
-        details3: '',
-        details4: '',
-        details5: ''
-      },
-      prices: {
-        price1: '$15',
-        price2: '$23',
-        price3: '',
-        price4: 'Beef $2.50, Chicken $3.00, Guacamole $3.00 ',
-        price5: 'Beef $4.00, Chicken $5.00, Guacamole $5.00'
       }
     },
     {

@@ -70,6 +70,17 @@ const MenuDetails = (props) => {
               <p>{props.selectedMenuItem.details.details13}</p>
               <p>{props.selectedMenuItem.prices.price13}</p>
             </li>
+            <li>{props.selectedMenuItem.items.item14}
+              <p>{props.selectedMenuItem.details.details14}</p>
+            </li>
+            <li>{props.selectedMenuItem.items.item15}
+              <p className='price'>{props.selectedMenuItem.prices.price14}</p>
+              <p className='extra-price'>{props.selectedMenuItem.prices.price16}</p>
+            </li>
+            <li>{props.selectedMenuItem.items.item16}
+              <p className='price'>{props.selectedMenuItem.prices.price15}</p>
+              <p className='extra-price'>{props.selectedMenuItem.prices.price17}</p>
+            </li>
             <li style={{fontSize: '10px'}}>GF = Gluten Free, GFM = Gluten Free if Modified, V = Vegetarian</li>
           </ul>
         </div>

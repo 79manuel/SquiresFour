@@ -1,9 +1,19 @@
 footer .footer__hours {
   text-align: center;
 }
-footer .footer__hours p span {
+footer .footer__hours .footer__hours__alignment {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .footer__hours .footer__hours__alignment p {
+  font-size: smaller;
+}
+footer .footer__hours .footer__hours__alignment p span {
   font-weight: bold;
   font-size: larger;
+}
+footer .footer__hours h1 {
+  margin-bottom: 0;
 }
 footer .footer__info {
   background-color: black;
@@ -32,6 +42,10 @@ footer .footer__info .footer__copyright {
 }
 
 @media only screen and (min-width: 796px) {
+  .footer__hours__alignment {
+    font-size: x-large;
+  }
+
   .footer__info {
     padding: 7px 0;
   }

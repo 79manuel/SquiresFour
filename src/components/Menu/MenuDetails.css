@@ -16,10 +16,13 @@
 .menu-details-container ul li {
   padding-bottom: 10px;
 }
+.menu-details-container ul li .price {
+  font-size: 0.9rem !important;
+}
 .menu-details-container ul li p {
   margin: 0;
 }
-.menu-details-container ul li p:nth-of-type(odd) {
+.menu-details-container ul li p:nth-of-type(odd), .menu-details-container ul li .extra-price {
   font-size: 10px;
 }
 

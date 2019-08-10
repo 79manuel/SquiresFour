@@ -17,7 +17,7 @@ class Contact extends React.Component {
                     <p>
                       <span>Squires Four Cold Beer & Wine Store</span><br/>
                       6301 Stickle Road Vernon
-                      <a href='tel: 2505492226'>Phone: 250-549-2226</a><br/>
+                      <a href='tel: 2505492144'>Phone: 250-549-2144</a><br/>
                     </p>
                   </div>
                   <article className='iframe-container'>
