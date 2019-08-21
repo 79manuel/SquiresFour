@@ -77,32 +77,6 @@ const MenuListReducer = () => {
         price17: 'Add Toppings: Beef $4.00, Chicken $5.00, Guacamole $5.00'
       }
     },
-    // {
-    //   course: 'Nachos',
-    //   items: {
-    //     item1:'For One',
-    //     item2: 'For Two',
-    //     item3: 'Add Toppings:',
-    //     item4: 'For One',
-    //     item5: 'For Two'
-    //
-    //   },
-    //   details: {
-    //     details1: 'Crisp tortillas piled high with cheese sauce, tomatoes, green onions, olives; served with salsa and \' +\n' +
-    //         ' \'sour cream ',
-    //     details2: '',
-    //     details3: '',
-    //     details4: '',
-    //     details5: ''
-    //   },
-    //   prices: {
-    //     price1: '$15',
-    //     price2: '$23',
-    //     price3: '',
-    //     price4: 'Beef $2.50, Chicken $3.00, Guacamole $3.00 ',
-    //     price5: 'Beef $4.00, Chicken $5.00, Guacamole $5.00'
-    //   }
-    // },
     {
       course: 'Salads',
       items: {
