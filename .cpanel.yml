@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public/index.html/
+    - export DEPLOYPATH=/home/squires4pub/repositories/SquiresFour/public/
     - /bin/cp index.html $DEPLOYPATH  
