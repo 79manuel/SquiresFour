@@ -3,21 +3,21 @@ import { combineReducers } from 'redux';
 const MenuListReducer = () => {
   return [
     {
-      course: 'Soups',
-      items: {
-        item1: 'Cup of Soup with Garlic Toast',
-        item2: 'Bowl of Soup with Garlic Toast',
-        item3: 'Soup & Sandwich Special'
-      },
-      details: {
-        details1: '',
-        details2: '',
-      },
-      prices: {
-        price1: '$7',
-        price2: '$8',
-        price3: 'cup $11 | bowl $12'
-      }
+      // course: 'Soups',
+      // items: {
+      //   item1: 'Cup of Soup with Garlic Toast',
+      //   item2: 'Bowl of Soup with Garlic Toast',
+      //   item3: 'Soup & Sandwich Special'
+      // },
+      // details: {
+      //   details1: '',
+      //   details2: '',
+      // },
+      // prices: {
+      //   price1: '$7',
+      //   price2: '$8',
+      //   price3: 'cup $11 | bowl $12'
+      // }
     },
     {
       course: 'Starters and Appetizers',
