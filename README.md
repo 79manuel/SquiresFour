@@ -1,6 +1,6 @@
 #Intro
 
-Multi page website built with React and Redux. Deployed with Netlify.
+Multi page website built with React and Redux.
 Pre-processor: Sass. 
 
 Link: #
