@@ -5,10 +5,9 @@ const MenuListReducer = () => {
     {
       course: 'Soups',
       items: {
-        item1: 'Cup of Soup with Garlic Toast',
+        item1: 'Test',
         item2: 'Bowl of Soup with Garlic Toast',
-        item3: 'Soup & Sandwich Special',
-        item4: 'TEST'
+        item3: 'Soup & Sandwich Special'
       },
       details: {
         details1: '',
